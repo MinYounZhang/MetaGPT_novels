@@ -25,4 +25,4 @@ llm:
 python ./metagpt/test_novel.py
 ```
 
-![示例图片](./img/author.jpg)
+![示例图片](img/author.jpg)
