@@ -9,7 +9,7 @@
 from metagpt.provider.google_gemini_api import GeminiLLM
 from metagpt.provider.ollama_api import OllamaLLM
 from metagpt.provider.openai_api import OpenAILLM
-from metagpt.provider.zhipuai_api import ZhiPuAILLM
+# from metagpt.provider.zhipuai_api import ZhiPuAILLM
 from metagpt.provider.azure_openai_api import AzureOpenAILLM
 from metagpt.provider.metagpt_api import MetaGPTLLM
 from metagpt.provider.human_provider import HumanProvider
@@ -18,13 +18,13 @@ from metagpt.provider.qianfan_api import QianFanLLM
 from metagpt.provider.dashscope_api import DashScopeLLM
 from metagpt.provider.anthropic_api import AnthropicLLM
 from metagpt.provider.bedrock_api import BedrockLLM
-from metagpt.provider.ark_api import ArkLLM
+# from metagpt.provider.ark_api import ArkLLM
 from metagpt.provider.openrouter_reasoning import OpenrouterReasoningLLM
 
 __all__ = [
     "GeminiLLM",
     "OpenAILLM",
-    "ZhiPuAILLM",
+    # "ZhiPuAILLM",
     "AzureOpenAILLM",
     "MetaGPTLLM",
     "OllamaLLM",
@@ -34,6 +34,6 @@ __all__ = [
     "DashScopeLLM",
     "AnthropicLLM",
     "BedrockLLM",
-    "ArkLLM",
+    # "ArkLLM",
     "OpenrouterReasoningLLM",
 ]

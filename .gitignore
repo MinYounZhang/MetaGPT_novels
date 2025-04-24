@@ -1,5 +1,7 @@
 ### Python template
 
+test_workspace/
+
 # Byte-compiled / optimized / DLL files
 __pycache__
 *.py[cod]
